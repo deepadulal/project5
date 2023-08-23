@@ -1,3 +1,59 @@
-h1 {
-    Color: red;
+header{
+    border:solid;
+    text-align:center;
+    background-color: pink;
+  
+    color:blue;
+  }
+  h1,h3{color:blue;}
+  
+  
+  body{background-color:lightblue;}
+  
+  .intro{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap:10px;
+    
+  }
+  p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 50px;
+    text-align: center;
+    color: blueviolet;
+  }
+  p.para{ text-align:left;}
+  
+  .parent{
+    text-align:center;
+  }
+  ul{text-align:left;
+    padding-left:0;
+    color:blue;
+  /*   text-align:center; */
+  /*   list-style-position: inside; */
+    display: inline-block;
+    
+  }
+  .contact{
+    border:solid;
+    background-color:pink;
+    text-align: center;
+    color:blue;
+  }
+  
+    img{
+      max-width: 75%;
+      max-height: 50%;
+  /*     display: block; */
+      margin-inline:auto;
+      padding-bottom:10px;
+      box-shadow: 10px 5px;
+      padding-top: 10px;
+    
     }
+    
+  }
+  
+    
+    
